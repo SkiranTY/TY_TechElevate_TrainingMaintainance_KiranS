@@ -86,7 +86,7 @@ public class BatchInfoController {
 		if (batchservice.updateBatch(batchinfo)) {
 			response.setStatuscode(200);
 			response.setBatchcode(batchinfo.getBatchcode() + "is upadated");
-
+			
 		} else {
 			response.setStatuscode(401);
 		}
@@ -114,6 +114,7 @@ public class BatchInfoController {
 		List<BatchInfo> technologylist = batchservice.getTechnologywise();
 		if (technologylist == null) {
 			response.setStatuscode(400);
+		
 		} else {
 			response.setStatuscode(200);
 			response.setBatchinfo(technologylist);

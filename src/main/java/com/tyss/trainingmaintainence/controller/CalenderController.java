@@ -34,6 +34,7 @@ public class CalenderController {
 		CalenderInfo calinfo = calenderService.addCalenderInfo(calenderinfo);
 		if (calinfo != null) {
 			response.setStatuscode(200);
+			
 		} else {
 			response.setStatuscode(400);
 		}
