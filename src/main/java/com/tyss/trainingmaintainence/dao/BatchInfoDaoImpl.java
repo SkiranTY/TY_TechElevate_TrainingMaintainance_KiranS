@@ -71,7 +71,7 @@ public class BatchInfoDaoImpl implements BatchInfoDao {
 		getinfo.setInvoiceDate(batchinfo.getInvoiceDate());
 		getinfo.setStudentfile(batchinfo.getStudentfile());
 		transaction.commit();
-		// manager.close();
+		manager.close();
 		return true;
 	}
 
@@ -85,7 +85,7 @@ public class BatchInfoDaoImpl implements BatchInfoDao {
 		if (list == null) {
 			return null;
 		}
-		// manager.close();
+		 manager.close();
 		return list;
 	}
 
@@ -99,7 +99,7 @@ public class BatchInfoDaoImpl implements BatchInfoDao {
 		if (list == null) {
 			return null;
 		}
-		// manager.close();
+		 manager.close();
 		return list;
 	}
 
