@@ -1,0 +1,3 @@
+[http-nio-8086-exec-2] INFO  com.tyss.trainingmaintainence.controller.BatchInfoController  - getting batch details
+[http-nio-8086-exec-5] ERROR com.tyss.trainingmaintainence.controller.BatchInfoController  - got batch details by technlogywise
+[http-nio-8086-exec-2] INFO  com.tyss.trainingmaintainence.controller.BatchInfoController  - getting batch details
